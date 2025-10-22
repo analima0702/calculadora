@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <!--Cabeçalho da pagina-->
+    <head>
+        <meta name="viewport" content= "whidlh=device-width,inital-scalet=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>calculadora</title>
+    </head>
+    <!-- elementos visuais -->
+    <body>
+        <!--criando a area da calculadora-->
+        <div class="calculator">
+            <input type ="text" id="display" disabled>
+            <div class="buttons">
+               
+               
+               <button onclick="clearDisplay()">C</button>
+               <button onclick="appandSybol('/')">÷</button>
+               <button onclick="appandSybol('*')">x</button>
+               <button onclick="deleteLast()">←</button>
+               
+               
+               <button onclick="appandSybol('7')">7</button>
+               <button onclick="appandSybol('8')">8</button>
+               <button onclick="appandSybol('9')">9</button>
+               <button onclick="appandSybol('-')">-</button>
+               
+               <button onclick="appandSybol('4')">4</button>
+               <button onclick="appandSybol('5')">5</button>
+               <button onclick="appandSybol('6')">6</button>
+               <button onclick="appandSybol('+')">+</button>
+               
+               <button onclick="appandSybol('1')">1</button>
+               <button onclick="appandSybol('2')">2</button>
+               <button onclick="appandSybol('3')">3</button>
+               <button onclick="calculate()">=</button>
+               
+               <button onclick="appandSybol('0')" class="zero">0</button>
+               <button onclick="appandSybol('.')">.</button>
+         
+                </div>
+            
+        </div>
+        <!--caregar arquivo javascript-->
+        <script src="script.js"></script>
+    </body>
+    
+</html>
+
+
+
+
+
+
+
